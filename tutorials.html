@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>newspaper</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- for responsive -->
+	<link rel="stylesheet" type="text/css" href="main.css"><!-- link to css -->
+	<script src="script.js"></script><!-- link for javascript -->
+</head>
+<body>
+	<div class="main">
+		<!-- for hammburger menu in responsive -->
+		<div class="hamicon">
+			<a href="javascript:void(0);" class="icon" onclick="hamFunc()">
+	    	<i class="fa fa-bars"></i>
+	 		</a>
+ 		</div>
+		<ul id="menulink"><!-- navigation bar -->
+			<li><a href="index.html">Landings</a></li>
+			<li><a href="Reviews.html">Reviews</a></li>
+			<li><a href="GLossary.html">Glossary</a></li>
+			<li><a href="jobs.html">Jobs</a></li>
+			<li  class="active"
+			><a href="tutorials.html">Tutorials</a></li>
+		</ul>
+		<!-- script for hammburger menu in responsive -->
+ 		<script>
+		function hamFunc() {
+		  var dev = document.getElementById("menulink");
+		  if (dev.style.display === "block") {
+		    dev.style.display = "none";
+		  } else {
+		    dev.style.display = "block";
+		  }
+		}
+		</script>
+	</div>
+	<div class=" tutorials">
+		<div class="html">
+			<h2>HTML tutorials</h2>
+			<h4>here are some tutorials for learning html</h4>
+			<!-- videos of html tutorials -->
+			<iframe  src="https://www.youtube.com/embed/UB1O30fR-EE"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe  src="https://www.youtube.com/embed/9gTw2EDkaDQ"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		<div class="css">
+			<h2>CSS Tutorial</h2>
+			<h4> here are some tutorials of css </h4>
+			<!-- videos for css tutorials -->
+			<iframe  src="https://www.youtube.com/embed/CUxH_rWSI1k"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe  src="https://www.youtube.com/embed/-vo0HzNHL3U"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			
+		</div>
+
+		
+	</div>
+
+<!-- for footer part  -->
+	<div class="footer">
+		<ul>
+	 		<li><a href=""><i class="fab fa-facebook"></i></a></li><!-- for facebook -->
+	 		<li><a href=""><i class="fab fa-twitter-square"></i></a></li><!-- for twitter -->
+	 		<li><a href=""><i class="fab fa-instagram"></i></a></li><!-- for instagram icon -->
+	 		<li><a href=""><i class="fab fa-youtube"></i></a></li><!-- for youtube icon -->
+	 	</ul>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"><!-- link for the icon in use -->
+		<!--  -->
+	</div>
+</body>
+</html>

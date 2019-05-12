@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>newspaper</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"><!-- link for metrialized css  -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- for responsive -->
+	<link rel="stylesheet" type="text/css" href="main.css"><!-- link to css -->
+	<script src="script.js"></script><!-- link for javascript -->
+</head>
+<body>
+	<div class="main">
+		<!-- for hammburger menu in responsive -->
+		<div class="hamicon">
+			<a href="javascript:void(0);" class="icon" onclick="hamFunc()">
+	    	<i class="fa fa-bars"></i>
+	 		</a>
+ 		</div>
+		<ul id="menulink"><!-- navigation bar -->
+			<li><a href="index.html">Landings</a></li>
+			<li><a href="Reviews.html">Reviews</a></li>
+			<li><a href="GLossary.html">Glossary</a></li>
+			<li  class="active"><a href="jobs.html">Jobs</a></li>
+			<li><a href="tutorials.html">Tutorials</a></li>
+		</ul>
+		<!-- script for hammburger menu in responsive -->
+ 		<script>
+		function hamFunc() {
+		  var dev = document.getElementById("menulink");
+		  if (dev.style.display === "block") {
+		    dev.style.display = "none";
+		  } else {
+		    dev.style.display = "block";
+		  }
+		}
+		</script>
+	</div>
+	<div class="comparisons">
+		<div class="top">
+			<h3>Web Developer vs Web designer</h3>
+			<p>Website developer and web designer, their jobs today are at times met, yet who is progressively significant, them two have crucial jobs for World Wide Web. 
+
+Sites are logically winding up all the more teaming up and outwardly interesting, yet to state this is a result of the endeavors of fashioners or engineers will be an understatement. Both web developer and website designer should cooperate to build up a superior site.
+
+		    </p>
+		</div>
+		<div>
+			<div class="content1">
+				<div class="designer">
+				<h5>Web Designer</h5>
+				<img alt="" src="design.png">
+				<p>A website designer chips away at a front-end of a web.Their work is to take a shot at the visuals and neglect of website.They are the planners and for the most part communicate with the hues, illustrations and apperances of a website.In basic words they hold the perspective on making the site looks charming and userfriendly. They are progressively worried about the client confronting and front-end of a website.They are increasingly acquainted with the three pillers of the internet HTML, CSS, and JavaScript to make substance and looks of a website.they are additionally acquainted with designs designn, visual programming and shading plan.</p>
+
+				
+			</div>
+			<div class="developer">
+				<h5>Web Developer </h5>
+				<img alt="" src="develop.png">
+				<p>Web Developer takes a shot at the back-end of a site and give the "skeleton" to the website. They chip away at the inward functions of a site and generally acquainted with the propelled programming abilities to make communications to the site.They are in charge of making client interface.They are increasingly acquainted with programming dialects like c, python,PHP.</p>
+			</div>
+			</div>
+			
+		</div>
+		<!-- to make form for applicants -->
+	<div class="row">
+		<!-- <div class= col  s12 14 offset-14> -->
+		<div class="card ">
+				<div class="card-action white black-text">
+				<h3>Applicants Form</h3>
+				<div class="card-content">
+					<div class="form-field">
+						<form action="form">
+						Firstname:
+					<input  type="text" name="firstname" placeholder="enter firstname" required><br><br>
+					Last name:
+					<input type="text" name="lastname" >
+					<br><br>
+					Email:
+					<input type="text" name="email" >
+					<br><br>
+					Message:<br>
+					<textarea id="textarea-message" name="Message" placeholder="Drop a Message ...." ></textarea><br>
+					<input class="btn-large red" type="submit" value="Submit">
+					</form>
+						
+					</div>
+					
+				</div>
+				
+			   </div>
+			</div>
+		</div>
+	</div>
+<!-- for footer part  -->
+	<div class="footer">
+		<ul>
+	 		<li><a href=""><i class="fab fa-facebook"></i></a></li><!-- for facebook -->
+	 		<li><a href=""><i class="fab fa-twitter-square"></i></a></li><!-- for twitter -->
+	 		<li><a href=""><i class="fab fa-instagram"></i></a></li><!-- for instagram icon -->
+	 		<li><a href=""><i class="fab fa-youtube"></i></a></li><!-- for youtube icon -->
+	 	</ul>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"><!-- link for the icon in use -->
+		<!--  -->
+	</div>
+</body>
+</html>
