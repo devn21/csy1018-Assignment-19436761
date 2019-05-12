@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>newspaper</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- for responsive -->
+	<link rel="stylesheet" type="text/css" href="main.css"><!-- link to css -->
+	<script src="script.js"></script><!-- link for javascript -->
+</head>
+<body>
+	<div class="main">
+		<!-- for hammburger menu in responsive -->
+		<div class="hamicon">
+			<a href="javascript:void(0);" class="icon" onclick="hamFunc()">
+	    	<i class="fa fa-bars"></i>
+	 		</a>
+ 		</div>
+		<ul id="menulink"><!-- navigation bar -->
+			<li><a href="index.html">Landings</a></li>
+			<li  class="active"s><a href="Reviews.html">Reviews</a></li>
+			<li><a href="GLossary.html">Glossary</a></li>
+			<li><a href="jobs.html">Jobs</a></li>
+			<li><a href="tutorials.html">Tutorials</a></li>
+		</ul>
+		<!-- script for hammburger menu in responsive -->
+ 		<script>
+		function hamFunc() {
+		  var dev = document.getElementById("menulink");
+		  if (dev.style.display === "block") {
+		    dev.style.display = "none";
+		  } else {
+		    dev.style.display = "block";
+		  }
+		}
+		</script>
+	</div>
+	<div class="Reviews">
+		<div class="review1">
+			<h1>WP Engine</h1>
+			<img alt="" src="wp.png">
+			<p>It has extreme speed,it is utilizing EverCache innovation and the page execution instrument is good.it has best Security highlights and excellent client support.It has made organizing enviroment for the users.the clients can make free access to the genis Framework and over 35+ premium topics.</p>
+			<p>The cons of the WP Engine incorporate the No space enlistments and email hosting.the modules are made incapacitated and athere is no cPanel.And the WP motor facilitating plan are Startup plan(starting at $28/month)growth plan(starting at $115/month)and the scale plan ( beginning at %290/month).lastly as often as possible posed inquiry</p>
+		</div>
+		<div class="review2">
+			<h1>CloudWays</h1>
+			<img alt="" src="cloudways.png">
+			<p>It has novel cloud facilitating arrangement. the performing speed is high and it has overseen security.THe group coordinated effort is great and has steller client backing and great site observin</p>
+			<p>BUt there is no domain name registration, no cPAnel oe plesk and no Email hosting.THe  cloud Hosting Plans and Pricing has manged  Wordpress hosting.</p>
+		</div>
+	</div>
+<!-- for footer part  -->
+	<div class="footer">
+		<ul>
+	 		<li><a href=""><i class="fab fa-facebook"></i></a></li><!-- for facebook -->
+	 		<li><a href=""><i class="fab fa-twitter-square"></i></a></li><!-- for twitter -->
+	 		<li><a href=""><i class="fab fa-instagram"></i></a></li><!-- for instagram icon -->
+	 		<li><a href=""><i class="fab fa-youtube"></i></a></li><!-- for youtube icon -->
+	 	</ul>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"><!-- link for the icon in use -->
+		<!--  -->
+	</div>
+</body>
+</html>
